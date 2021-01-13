@@ -16,11 +16,9 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Now it is
-        run: /
-          date
+        run: date
   directory_job:
     runs-on: ubuntu-18.04
     steps:
       - name: Directory content
-        run: /
-          ls -l
+        run: ls -l
