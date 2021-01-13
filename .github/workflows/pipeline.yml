@@ -35,3 +35,4 @@ jobs:
           heroku_email: apoWebDevAcc@gmail.com
           healthcheck: "https://pokedex-char.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
