@@ -47,7 +47,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BUMP: patch
-      - name: The job has succeeded
+      - name: The job has succeeded finally
         uses: 8398a7/action-slack@v3
         with:
           status: ${{ job.status }}
