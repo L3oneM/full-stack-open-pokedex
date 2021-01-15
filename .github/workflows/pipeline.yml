@@ -49,7 +49,6 @@ jobs:
           DEFAULT_BUMP: patch
       - name: The job has succeeded
       - uses: 8398a7/action-slack@v3
-        if: ${{ github.event_name == 'push' && ( success() || failure() ) }}
         with:
           status: ${{ job.status }}
           fields: repo,message,commit,author
